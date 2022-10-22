@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 export const ContainerProjects = styled.div`
     width: 100%;
-    height: 50vh;
-    background-color: #F05454;
+    height: 100vh;
+    background-color: #16213E;
     color: #F0ECE3;
     display: flex;
     flex-direction: column;
@@ -14,8 +14,16 @@ export const ContainerProjects = styled.div`
 
 export const ProjectsDiv = styled.div`
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-    width: 80%;
-    height: 40vh;
+    width: 60%;
+    height: 100vh;
+    flex-wrap: wrap;
+`;
+
+export const Title = styled.h1`
+    margin: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 3.5rem;
 `;
