@@ -1,12 +1,15 @@
-import { ContainerProjects,ProjectsDiv } from "../styledComponents/ProjectsStyle"
+import { ContainerProjects,ProjectsDiv,Title } from "../styledComponents/ProjectsStyle"
 import { CardProject } from "./CardProject"
 
 
 export const Projects = () => {
   return (
     <ContainerProjects>
-        <h1>Proyectos</h1>
+        <Title>Proyectos</Title>
         <ProjectsDiv>
+          <CardProject/>
+          <CardProject/>
+          <CardProject/>
           <CardProject/>
         </ProjectsDiv>
     </ContainerProjects>

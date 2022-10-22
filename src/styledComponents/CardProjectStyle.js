@@ -2,56 +2,62 @@ import styled from "styled-components";
 
 
 export const ContainerCard = styled.div`
-    background-color: #C7B198;
-    width: 30rem;
-    height: 15rem;
-    border-radius: 1rem;
-    text-align: center;
-    font-size: 1.25rem;
-    display: flex;
-`;
-export const ContainerImg = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-    right: 4rem;
-    width: 10rem;
+    background-color: #1F232C;
+    width: 25rem;
+    height: 30rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+
+    .infoContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0.75rem 0.75rem 0.75rem;
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+        h1{
+            margin: 0;
+            font-size: 2.5rem;
+            padding-bottom: 0.5rem;
+        }
+        .buttonContainer{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .paragraph{
+            margin: 0.5rem;
+        }
+        .tecnologieContainer{
+            width: 100%;
+            margin: 0.25rem;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        span{
+            background-color: #F05454;
+            border-radius: 0.25rem;
+            padding: 0.25rem;
+        }
+    }
 `;
 
-export const CardImg = styled.img`
-    width: 14rem;
-    height: 11rem;
-    border-radius: 1rem;
-    position: relative;
+export const Grid = styled.div`
+    display: grid;
+    height: 50%;
+    grid-template-rows: 0.5fr 0.5fr;
+    grid-template-areas: 
+        "img1   img1"
+        "img2   img3";
+    grid-gap: 0.75rem;
+    padding: 0.75rem;
 `;
 
-export const CardBody = styled.div`
-    width: 80%;
-    margin: 0;
-    height: 14rem;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+export const Img1 = styled.div`
+    background-color: white;
+    grid-area: ${({img})=> img};
+    border-radius: 0.5rem;
 `;
 
-export const Title = styled.h1`
-    margin: 0;
-    padding-bottom: 1rem;
-`;
-
-export const CardLinks = styled(CardBody)`
-    flex-direction: row;
-    justify-content: space-between;
-`;
-
-export const CardParagraph = styled.p`
-    padding-bottom: 1rem;
-    margin: 0;
-`;
-
-export const CardIcons = styled(CardLinks)`
-    justify-content: space-evenly;
-    padding-bottom: 1rem;
-`;
