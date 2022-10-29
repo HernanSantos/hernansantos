@@ -1,6 +1,6 @@
 import {Container} from "../styledComponents/NavbarStyle"
-import MenuIcon from '@mui/icons-material/Menu';
 import { useState } from "react";
+import { BurgerMenu } from "./BurgerMenu";
 
 export const Navbar = () => {
 
@@ -21,10 +21,8 @@ export const Navbar = () => {
         </div>
 
         <div className="menuIcon" onClick={()=> handlechange()}>
-          <MenuIcon/>
+          <BurgerMenu clicked={isOpen} handlechange={handlechange}/>
         </div>
-        
-        {/* <BgContainer className={`initial ${isOpen ? "active" :""}`}></BgContainer> */}
     </Container>
   )
 }

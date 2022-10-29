@@ -2,10 +2,12 @@ import { ContainerHome,TitleDiv,Title,Subtitle,InfoContainer,ImgDiv,IconsDiv } f
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
+import { Navbar } from "./Navbar";
 
 export const Home = () => {
   return (
     <ContainerHome>
+      <Navbar/>
       <InfoContainer>
         <ImgDiv>
           <img src="http://res.cloudinary.com/dtfmesfi0/image/upload/v1666110677/pokemon-app/bibicfnwbdadiprw6veq.png" alt="" />
