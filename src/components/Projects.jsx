@@ -1,17 +1,18 @@
-import { ContainerProjects,ProjectsDiv,Title } from "../styledComponents/ProjectsStyle"
-import { CardProject } from "./CardProject"
+import { ContainerProjects} from "../styledComponents/ProjectsStyle"
+import { CardHover } from "./CardHover"
 
 
 export const Projects = () => {
   return (
     <ContainerProjects>
-        <Title>Proyectos</Title>
-        <ProjectsDiv>
-          <CardProject/>
-          <CardProject/>
-          <CardProject/>
-          <CardProject/>
-        </ProjectsDiv>
+        <h1>Proyectos</h1>
+        <hr className="lineTitle"/>
+        <div className="projectsDiv">
+          <CardHover/>
+          <CardHover/>
+          <CardHover/>
+          <CardHover/>
+        </div>
     </ContainerProjects>
   )
 }
