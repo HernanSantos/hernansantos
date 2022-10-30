@@ -17,6 +17,8 @@ export const Container = styled.div`
     a{
         font-size: 2rem;
         text-decoration: none;
+        font-weight: bold;
+        color: #F0ECE3;
 
         &:hover{
            color: #F05454;
@@ -40,7 +42,7 @@ export const Container = styled.div`
                 height: 100%;
                 cursor: pointer;
                 transition: all 0.5s ease;
-                margin-right: 1.5rem;
+                margin-right: 3rem;
 
                 @media screen and (max-width: 415px ){
                     width: 100%;

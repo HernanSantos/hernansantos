@@ -7,6 +7,7 @@ export const AboutMeContainer = styled.div`
     color: #373744;
     width: 100%;
     font-family: 'Poppins', sans-serif;
+    padding-top: 3rem;
 
     .infoContainer{
         display: flex;
@@ -28,7 +29,7 @@ export const AboutMeContainer = styled.div`
             border: 0;
             height: 5px;
             background-color: #0074B7;
-            width: 9rem;
+            width: 10%;
             margin: auto;
         }
         .imgTextDiv{
@@ -38,14 +39,11 @@ export const AboutMeContainer = styled.div`
             width: 60%;
             padding-top: 3rem;
 
-            @media screen and (max-width: 415px ){
-                width: 80%;
-            }
             .imgContainer{
                 width: 45%;
 
                 img{
-                    width: 250px;
+                    width: 16rem;
                 }
                 .cv{
                     height: 5rem;
@@ -72,7 +70,6 @@ export const AboutMeContainer = styled.div`
                         font-size: 1.25rem;
                     }
                 }
-
                 .hrStyle{
                     border: 0;
                     height: 1px;
@@ -80,13 +77,11 @@ export const AboutMeContainer = styled.div`
                     background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
                     background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
                 }    
-
                 p{
                     text-align: center;
-                }
-                
+                    font-size: 1.25rem;
+                }   
             }
-
         }
 
         .tecnologies{
@@ -115,6 +110,34 @@ export const AboutMeContainer = styled.div`
                 .icon{
                 width: 6rem;
                 }
+            }
+        }
+    }
+
+    @media screen and (max-width: 415px ){
+
+        .infoContainer{
+            
+            .imgTextDiv{
+                width: 90%;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .imgContainer{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                }
+                .textContainer{
+                    padding-top: 2rem;
+                    width: 100%;
+                }
+            }
+
+            .lineTitle{
+                width: 40%;
             }
         }
     }
