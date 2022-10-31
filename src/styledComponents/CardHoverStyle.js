@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
     left: 50%;
     top: 50%;
     transform: translate(0%, 0%);
-    padding-bottom: 4rem;
+    margin-bottom: 4rem;
 
     img{
         display: block;
@@ -73,16 +73,16 @@ export const Wrapper = styled.div`
         left: 0;
         bottom: 0;
         right: 0;
-        height: calc(100% - 4rem);
+        height: 100%;
         width: 100%;
         opacity: 0;
         transition: 0.5 ease;
-        background: #0074B7;
+        background: #FF5412;
         border-radius: 0.5rem;
         cursor: default;
     }
     &:hover .overlay{
-        opacity: 0.9;
+        opacity: 1;
     }
 
     @media screen and (max-width: 415px ){

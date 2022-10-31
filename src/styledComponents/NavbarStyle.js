@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-    background-color:#0074B7;
-    color: #F0ECE3;
+export const Container = styled.nav`
+    background-color: #EFEFEF;
+    color:  #373744;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -13,16 +13,17 @@ export const Container = styled.div`
     opacity: 1;
     position: fixed;
     z-index: 2;
+    box-shadow: 0px 3px 18px grey;
 
     a{
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-decoration: none;
         font-weight: bold;
-        color: #F0ECE3;
+        color: #373744;
 
         &:hover{
-           color: #F05454;
-           border-bottom: 4px solid #F05454;
+           color: #FF5412;
+           border-bottom: 4px solid #FF5412;
            
         }
     }
@@ -56,7 +57,7 @@ export const Container = styled.div`
 
         @media screen and (max-width: 415px ) {
             display: flex;
-            background-color: #0074B7;
+            background-color: #EFEFEF;
             position: absolute;
             top: 3rem;
             left: -100%;
