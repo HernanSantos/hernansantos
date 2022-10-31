@@ -16,9 +16,9 @@ export const Navbar = () => {
     <Container>
       <h2>Logo</h2>
         <div className={`menuContainer ${isOpen ? "active" : "desactive" }`}>
-          <Link to="#home" onClick={()=> handlechange()}>Inicio</Link>
-          <Link to="#aboutme" onClick={()=> handlechange()}>Sobre mi</Link>
-          <Link to="#projects" onClick={()=> handlechange()}>Proyectos</Link>
+          <Link to="#home" onClick={()=> handlechange()}>INICIO</Link>
+          <Link to="#aboutme" onClick={()=> handlechange()}>SOBRE MI</Link>
+          <Link to="#projects" onClick={()=> handlechange()}>PROYECTOS</Link>
         </div>
 
         <div className="menuIcon" onClick={()=> handlechange()}>

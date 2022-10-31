@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const AboutMeContainer = styled.div`
+export const AboutMeContainer = styled.section`
     background-color: #EFEFEF;
     display: flex;
     justify-content: center;
@@ -19,7 +19,7 @@ export const AboutMeContainer = styled.div`
         text-align: center;
 
         h1{
-            font-size: 3.5rem;
+            font-size: 3rem;
             text-align: center;
             margin: 1rem 1rem 0 1rem;
         }
@@ -28,7 +28,7 @@ export const AboutMeContainer = styled.div`
             justify-content: center;
             border: 0;
             height: 5px;
-            background-color: #0074B7;
+            background-color: #FF5412;
             width: 10%;
             margin: auto;
         }

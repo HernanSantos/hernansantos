@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 
-export const ContainerProjects = styled.div`
+export const ContainerProjects = styled.section`
     background-color: #EFEFEF;
     color: #373744;
     display: flex;
@@ -9,7 +9,6 @@ export const ContainerProjects = styled.div`
     align-items: center;
     justify-content: start;
     width: 100%;
-    height: 100vh;
     font-family: 'Poppins', sans-serif;
     padding-top: 5rem;
 
@@ -17,13 +16,13 @@ export const ContainerProjects = styled.div`
         margin: 0;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
     .lineTitle{
         display: flex;
         justify-content: center;
         height: 5px;
-        background-color: #0074B7;
+        background-color: #FF5412;
         width: 10%;
         margin: 0;
 
