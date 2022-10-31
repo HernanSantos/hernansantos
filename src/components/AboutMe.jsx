@@ -7,7 +7,7 @@ export const AboutMe = () => {
     <AboutMeContainer id="aboutme">
 
       <div className="infoContainer">
-        <h1>Sobre mi</h1>
+        <h1>SOBRE MI</h1>
         <hr className="lineTitle"/>
         <div className="imgTextDiv">
           <div className="imgContainer">
@@ -36,7 +36,7 @@ export const AboutMe = () => {
           </div>
         </div>
         <div className="tecnologies">
-          <h2>Tecnologias</h2>
+          <h2>TECNOLOGIAS</h2>
           <hr className="lineTitle"/>
           <div className="imagesContainer">
             <img 

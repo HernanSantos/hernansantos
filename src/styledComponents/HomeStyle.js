@@ -1,11 +1,22 @@
 import styled from "styled-components";
 
-export const ContainerHome = styled.div`
+export const ContainerHome = styled.section`
     width: 100%;
     height: 100vh;
-    background-color:#0074B7;
     font-family: 'Poppins', sans-serif;
 
+    .bg{
+        opacity: 0.35;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        min-height: 100vh;
+
+        @media screen and (max-width: 415px ) {
+            background-size: cover
+        }
+    }
 `;
 export const InfoContainer = styled.div`
     width: 60%;
@@ -67,7 +78,7 @@ export const IconsDiv = styled.div`
 export const Title = styled.h1`
     font-size: 6rem;
     margin: 0;
-    color: #F05454;
+    color: #FF5412;
     text-shadow: 0 0 0.5rem #121212;
 `;
 
