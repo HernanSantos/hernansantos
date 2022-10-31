@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ContainerCv = styled.div`
     width: 100%;
     height: 25vh;
+    background-color: #16213E;
     color: #99A799;
     display: flex;
     flex-direction: column;

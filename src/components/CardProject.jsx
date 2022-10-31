@@ -1,5 +1,5 @@
 import { ContainerCard, Grid, Img1 } from "../styledComponents/CardProjectStyle"
-import { SpecialButton } from "../styledComponents/SpecialButtonStyle"
+import { Button } from "../styledComponents/Button";
 
 import OpenInBrowserIcon from '@mui/icons-material/OpenInBrowser';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -23,8 +23,8 @@ export const CardProject = () => {
             </div>
             <p className="paragraph">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
             <div className="buttonContainer">
-                <SpecialButton wsize="md"><GitHubIcon/></SpecialButton>
-                <SpecialButton wsize="md"><OpenInBrowserIcon/></SpecialButton>
+                <Button bg="#F05454" size="sm"><GitHubIcon/></Button>
+                <Button bg="#F05454" size="sm"><OpenInBrowserIcon/></Button>
             </div>
         </div>
     </ContainerCard>

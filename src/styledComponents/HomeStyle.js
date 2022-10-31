@@ -2,14 +2,13 @@ import styled from "styled-components";
 
 export const ContainerHome = styled.div`
     width: 100%;
-    height: 100vh;
-    background-color:#0074B7;
-    font-family: 'Poppins', sans-serif;
+    height: 80vh;
+    background-color: #16213E;
 
 `;
 export const InfoContainer = styled.div`
     width: 60%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;

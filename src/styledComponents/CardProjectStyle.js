@@ -2,13 +2,11 @@ import styled from "styled-components";
 
 
 export const ContainerCard = styled.div`
-    border: 0.2rem solid #F05454;
+    background-color: #1F232C;
     width: 25rem;
-    height: 32rem;
+    height: 30rem;
     border-radius: 0.5rem;
     margin: 0.5rem;
-    font-family: 'Poppins', sans-serif;
-
 
     .infoContainer{
         display: flex;
@@ -43,13 +41,6 @@ export const ContainerCard = styled.div`
             border-radius: 0.25rem;
             padding: 0.25rem;
         }
-
-        @media screen and (max-width: 415px ){
-            margin: 0;
-        }
-    }
-    @media screen and (max-width: 415px ){
-        width: 20rem;
     }
 `;
 
@@ -65,7 +56,7 @@ export const Grid = styled.div`
 `;
 
 export const Img1 = styled.div`
-    background-color: #373744;
+    background-color: white;
     grid-area: ${({img})=> img};
     border-radius: 0.5rem;
 `;
