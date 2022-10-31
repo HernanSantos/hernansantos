@@ -28,7 +28,7 @@ export const AboutMeContainer = styled.div`
             border: 0;
             height: 5px;
             background-color: #0074B7;
-            width: 9rem;
+            width: 10%;
             margin: auto;
         }
         .imgTextDiv{

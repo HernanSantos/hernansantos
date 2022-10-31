@@ -17,6 +17,8 @@ export const Container = styled.div`
     a{
         font-size: 2rem;
         text-decoration: none;
+        font-weight: bold;
+        color: #F0ECE3;
 
         &:hover{
            color: #F05454;
