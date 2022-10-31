@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
     left: 50%;
     top: 50%;
     transform: translate(0%, 0%);
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
 
     img{
         display: block;
@@ -50,9 +50,6 @@ export const Wrapper = styled.div`
             align-items: center;
 
             .button{
-                display: flex;
-                justify-content: center;
-                align-items: center;
                 background-color: transparent;
                 color: white;
                 border: 2px solid white;
@@ -76,7 +73,7 @@ export const Wrapper = styled.div`
         left: 0;
         bottom: 0;
         right: 0;
-        height: calc(100% - 4rem);
+        height: calc(100% - 3rem);
         width: 100%;
         opacity: 0;
         transition: 0.5 ease;
@@ -86,11 +83,5 @@ export const Wrapper = styled.div`
     }
     &:hover .overlay{
         opacity: 0.9;
-    }
-
-    @media screen and (max-width: 415px ){
-        .content{
-            
-        }
     }
 `;

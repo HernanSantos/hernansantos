@@ -4,7 +4,7 @@ import { CardHover } from "./CardHover"
 
 export const Projects = () => {
   return (
-    <ContainerProjects id="projects">
+    <ContainerProjects>
         <h1>Proyectos</h1>
         <hr className="lineTitle"/>
         <div className="projectsDiv">

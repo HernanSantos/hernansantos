@@ -7,9 +7,7 @@ export const ContainerProjects = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
-    width: 100%;
-    height: 100vh;
+    justify-content: center;
     font-family: 'Poppins', sans-serif;
     padding-top: 5rem;
 
@@ -20,33 +18,26 @@ export const ContainerProjects = styled.div`
         font-size: 3.5rem;
     }
     .lineTitle{
-        display: flex;
-        justify-content: center;
-        height: 5px;
-        background-color: #0074B7;
-        width: 10%;
-        margin: 0;
-
-        @media screen and (max-width: 415px ){
-            width: 40%;
-        }
+            display: flex;
+            justify-content: center;
+            border: 0;
+            height: 5px;
+            background-color: #0074B7;
+            width: 9rem;
+            margin: auto;
     }
     
     .projectsDiv{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        border: 0;
         width: 60%;
         flex-wrap: wrap;
-        padding-top: 5rem;
+        padding-top: 3rem;
 
         @media screen and (max-width: 415px ){
-            width: 90%;
+            width: 100%;
             justify-content: space-evenly;
         }
-    }
-    @media screen and (max-width: 415px ){
-        height: 100%;
     }
 `;
