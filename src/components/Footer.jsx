@@ -14,7 +14,7 @@ export const Footer = () => {
                 <p>FrontEnd Developer</p>
             </div>
             <div className="contact">
-                Contacto
+                CONTACTO
                 <div className="linksContainer">
                     <a href="https://www.linkedin.com/in/hernan-santos-166161249/" target="_blank"><LinkedInIcon sx={{fontSize:30, color:"white"}}/></a>
                     <a href="https://github.com/HernanSantos" target="_blank"><GitHubIcon sx={{fontSize:30, color:"white"}}/></a>
@@ -22,9 +22,9 @@ export const Footer = () => {
                 </div>
             </div>
         </div>
-        <div className="copyright">
+        {/* <div className="copyright">
             Made by Hernán Santos
-        </div>
+        </div> */}
     </FooterSection>
   )
 }

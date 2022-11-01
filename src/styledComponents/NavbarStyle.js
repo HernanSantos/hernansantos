@@ -27,10 +27,14 @@ export const Container = styled.nav`
            
         }
     }
-    h2{
-        width: 5rem;
-        padding-left: 1rem;
+    span{
+        font-size: 2rem;
+        font-weight: bold;
+        margin-left: 1rem;
+        color: #F05454;
+        text-shadow: 1px 2px 6px black;
     }
+
     .menuContainer{
         display: flex;
         align-items: center;

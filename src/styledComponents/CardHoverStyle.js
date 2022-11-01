@@ -33,7 +33,7 @@ export const Wrapper = styled.div`
 
         h1{
             margin: 0;
-            font-size: 2.5rem;
+            font-size: 2rem;
             padding: 0.25rem;
         }
         p{
@@ -43,7 +43,7 @@ export const Wrapper = styled.div`
             text-align: center;
         }
         .buttonContainer{
-            width: 60%;
+            width: 80%;
             height: 3rem;
             display: flex;
             justify-content: space-evenly;
@@ -83,11 +83,5 @@ export const Wrapper = styled.div`
     }
     &:hover .overlay{
         opacity: 1;
-    }
-
-    @media screen and (max-width: 415px ){
-        .content{
-            
-        }
     }
 `;

@@ -16,11 +16,11 @@ export const AboutMe = () => {
               alt="avatar" 
             />
             <div className="cv">
-              <SpecialButton wsize="lg">
-                Ver Cv
-              </SpecialButton>
-              <SpecialButton wsize="lg">
+              <SpecialButton wsize="lg" href="../assets/Hernán Santos CV.pdf" download>
                 Descargar Cv
+              </SpecialButton>
+              <SpecialButton wsize="lg" href="https://drive.google.com/file/d/1IFi7PoRqVomOup6YJs_WGovvAMSWyc2J/view?usp=sharing" target="_blank">
+                Ver Cv
               </SpecialButton>
             </div>
           </div>

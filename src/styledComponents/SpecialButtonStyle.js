@@ -1,7 +1,7 @@
 
 import styled from "styled-components";
 
-export const SpecialButton = styled.button`
+export const SpecialButton = styled.a`
     width: ${({wsize})=>{
         switch(wsize){
             case "sm":
@@ -13,6 +13,7 @@ export const SpecialButton = styled.button`
         }
     }
     };
+    text-decoration: none;
     padding: 0.3rem 0.3rem;
     border: unset;
     border-radius: 0.2rem;
