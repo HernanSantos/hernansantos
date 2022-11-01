@@ -22,7 +22,7 @@ export const ContainerProjects = styled.section`
         display: flex;
         justify-content: center;
         height: 5px;
-        background-color: #FF5412;
+        background-color: #0074B7;
         width: 10%;
         margin: 0;
 
@@ -40,7 +40,7 @@ export const ContainerProjects = styled.section`
         padding-top: 3rem;
 
         @media screen and (max-width: 415px ){
-            width: 100%;
+            width: 90%;
             justify-content: space-evenly;
         }
     }

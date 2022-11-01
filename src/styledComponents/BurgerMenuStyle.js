@@ -23,18 +23,18 @@ export const BurguerMenu = styled.div`
 .nav-icon-5 span:nth-child(1){
   top:0px;
   left: 0px;
-  background-color: #373744;
+  background-color: #EFEFEF;
 }
 .nav-icon-5 span:nth-child(2){
   top:13px;
   left: 0px;
   opacity:1;
-  background-color: #373744;
+  background-color: #EFEFEF;
 }
 .nav-icon-5 span:nth-child(3){
   bottom:0px;
   left: 0px;
-  background-color: #373744;
+  background-color: #EFEFEF;
 }
 .nav-icon-5:not(.open):hover span:nth-child(1){
   transform: rotate(-3deg) scaleY(1.1);

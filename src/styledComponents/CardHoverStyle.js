@@ -77,7 +77,7 @@ export const Wrapper = styled.div`
         width: 100%;
         opacity: 0;
         transition: 0.5 ease;
-        background: #FF5412;
+        background: #0074B7;
         border-radius: 0.5rem;
         cursor: default;
     }

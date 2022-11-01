@@ -36,7 +36,7 @@ export const SpecialButton = styled.button`
         height: 100%;
         width: 0;
         border-radius: 0.2rem;
-        background-color: #FF5412;
+        background-color: #0074B7;
         z-index: -1;
         -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
         box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);

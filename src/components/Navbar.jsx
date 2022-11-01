@@ -1,8 +1,8 @@
+import React from 'react';
 import {Container} from "../styledComponents/NavbarStyle"
 import { useState } from "react";
 import { BurgerMenu } from "./BurgerMenu";
 import { HashLink as Link} from "react-router-hash-link";
-
 
 export const Navbar = () => {
 
@@ -16,9 +16,9 @@ export const Navbar = () => {
     <Container>
       <h2>Logo</h2>
         <div className={`menuContainer ${isOpen ? "active" : "desactive" }`}>
-          <Link to="#home" onClick={()=> handlechange()}>INICIO</Link>
-          <Link to="#aboutme" onClick={()=> handlechange()}>SOBRE MI</Link>
-          <Link to="#projects" onClick={()=> handlechange()}>PROYECTOS</Link>
+            <Link smooth to="#home" onClick={()=> handlechange()}>INICIO</Link>
+            <Link smooth to="#aboutme" onClick={()=> handlechange()}>SOBRE MI</Link>
+            <Link smooth to="#projects" onClick={()=> handlechange()}>PROYECTOS</Link>
         </div>
 
         <div className="menuIcon" onClick={()=> handlechange()}>

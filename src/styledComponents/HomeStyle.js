@@ -4,8 +4,8 @@ export const ContainerHome = styled.section`
     width: 100%;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
-
-    .bg{
+    background-color: #0074B7;
+    /* .bg{
         opacity: 0.35;
         position: absolute;
         left: 0;
@@ -16,7 +16,7 @@ export const ContainerHome = styled.section`
         @media screen and (max-width: 415px ) {
             background-size: cover
         }
-    }
+    } */
 `;
 export const InfoContainer = styled.div`
     width: 60%;
@@ -78,7 +78,7 @@ export const IconsDiv = styled.div`
 export const Title = styled.h1`
     font-size: 6rem;
     margin: 0;
-    color: #FF5412;
+    color: #F05454;
     text-shadow: 0 0 0.5rem #121212;
 `;
 

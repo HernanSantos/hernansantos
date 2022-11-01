@@ -20,14 +20,14 @@ export const AboutMeContainer = styled.section`
         h1{
             font-size: 3rem;
             text-align: center;
-            margin: 1rem 1rem 0 1rem;
+            margin: 4rem 1rem 0 1rem;
         }
         .lineTitle{
             display: flex;
             justify-content: center;
             border: 0;
             height: 5px;
-            background-color: #FF5412;
+            background-color: #0074B7;
             width: 10%;
             margin: auto;
         }
@@ -115,6 +115,29 @@ export const AboutMeContainer = styled.section`
                 .icon{
                 width: 6rem;
                 }
+            }
+        }
+    }
+    @media screen and (max-width: 415px ){
+        .infoContainer{
+            
+            .imgTextDiv{
+                width: 90%;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .imgContainer{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .textContainer{
+                    padding-top: 2rem;
+                    width: 100%;
+                }
+            }
+            .lineTitle{
+                width: 40%;
             }
         }
     }

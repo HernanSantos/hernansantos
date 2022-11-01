@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.nav`
-    background-color: #EFEFEF;
-    color:  #373744;
+    background-color: #0074B7;
+    color:  #EFEFEF;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -13,17 +13,17 @@ export const Container = styled.nav`
     opacity: 1;
     position: fixed;
     z-index: 2;
-    box-shadow: 0px 3px 18px grey;
+    box-shadow: 0px 3px 18px #0074B7;
 
     a{
         font-size: 1.5rem;
         text-decoration: none;
         font-weight: bold;
-        color: #373744;
+        color: #EFEFEF;
 
         &:hover{
-           color: #FF5412;
-           border-bottom: 4px solid #FF5412;
+           color: #F05454;
+           border-bottom: 4px solid #F05454;
            
         }
     }
@@ -57,7 +57,7 @@ export const Container = styled.nav`
 
         @media screen and (max-width: 415px ) {
             display: flex;
-            background-color: #EFEFEF;
+            background-color: #0074B7;
             position: absolute;
             top: 3rem;
             left: -100%;

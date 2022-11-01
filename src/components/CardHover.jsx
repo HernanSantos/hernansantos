@@ -11,7 +11,7 @@ export const CardHover = () => {
             <div className='overlay'>
                 <div className='content'>
                     <h1>Pokedex</h1>
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</p>
                     <div className='buttonContainer'>
                         <button className='button'><GitHubIcon /></button>
                         <button className='button'><LaunchIcon /></button>
