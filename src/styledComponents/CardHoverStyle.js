@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
     top: 50%;
     transform: translate(0%, 0%);
     margin-bottom: 4rem;
+    font-family: 'Roboto', sans-serif;
 
     img{
         display: block;

@@ -6,7 +6,7 @@ export const AboutMeContainer = styled.section`
     justify-content: center;
     color: #373744;
     width: 100%;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 
     .infoContainer{
         display: flex;
@@ -20,7 +20,7 @@ export const AboutMeContainer = styled.section`
         h1{
             font-size: 3rem;
             text-align: center;
-            margin: 4rem 1rem 0 1rem;
+            margin: 5rem 1rem 0 1rem;
         }
         .lineTitle{
             display: flex;

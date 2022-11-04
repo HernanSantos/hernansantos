@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 export const FooterSection = styled.footer`
     width: 100%;
-    height: 5rem;
+    height: 7rem;
     background-color:#0074B7;
     color: white;
+    font-family: 'Roboto', sans-serif;
 
     .container{
         display: flex;
@@ -17,24 +18,27 @@ export const FooterSection = styled.footer`
 
         .logo{
             text-align: center;
-            font-size: 1.5rem;
+            font-size: 1.25rem;
             font-weight: bold;
             text-shadow: 1px 2px 5px black;
             color: #EFEFEF;
         }
         .contact{
             text-align: center;
-            width: 15rem;
             font-weight: bold;
             color: #EFEFEF;
             text-shadow: 1px 2px 5px black;
-
+            width: 12rem;
         }
         .linksContainer{
             display: flex;
             justify-content: space-evenly;
             padding-top: 0.5rem;
             color: #EFEFEF;
+
+            .icon{
+                filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+            }
         }
 
         p{
@@ -62,10 +66,7 @@ export const FooterSection = styled.footer`
 
             .contact{
             width: 10rem;
-        }
-        }
-        .copyright{
-            padding-top: 0.5rem;
+            }
         }
     }
 `;

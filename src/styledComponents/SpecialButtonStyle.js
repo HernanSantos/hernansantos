@@ -22,12 +22,13 @@ export const SpecialButton = styled.a`
     background: ${({bg})=>bg || "#F0ECE3"};
     position: relative;
     font-weight: 1000;
-    font-size: 17px;
+    font-size: 1.25rem;
     -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
     box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
     transition: all 250ms;
     overflow: hidden;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
 
     &::before{
         content: "";

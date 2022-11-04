@@ -9,7 +9,7 @@ export const ContainerProjects = styled.section`
     align-items: center;
     justify-content: start;
     width: 100%;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-top: 5rem;
 
     h1{

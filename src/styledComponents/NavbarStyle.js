@@ -6,10 +6,10 @@ export const Container = styled.nav`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: auto;
     width: 100%;
-    height: 3.5rem;
+    height: 4.5rem;
     opacity: 1;
     position: fixed;
     z-index: 2;
@@ -26,13 +26,6 @@ export const Container = styled.nav`
            border-bottom: 4px solid #F05454;
            
         }
-    }
-    span{
-        font-size: 2rem;
-        font-weight: bold;
-        margin-left: 1rem;
-        color: #F05454;
-        text-shadow: 1px 2px 6px black;
     }
 
     .menuContainer{
@@ -93,6 +86,7 @@ export const Container = styled.nav`
         @media screen and (max-width: 415px ) {
             display: block;
             align-items: center;
+            padding-right: 0.75rem;
         }
     }
 `;
