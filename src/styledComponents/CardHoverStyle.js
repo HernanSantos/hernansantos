@@ -61,8 +61,7 @@ export const Wrapper = styled.div`
                 cursor: pointer;
 
                 &:hover{
-                    width: 6.5rem;
-                    height: 2.25rem;
+                    background-color: #0a5d8c;
                 }
             }
         }

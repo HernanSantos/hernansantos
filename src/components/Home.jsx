@@ -1,7 +1,7 @@
 import { ContainerHome, TitleDiv, ImgDiv } from "../styledComponents/HomeStyle"
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import EmailIcon from '@mui/icons-material/Email';
 
 export const Home = () => {
   return (
@@ -17,7 +17,7 @@ export const Home = () => {
           <div className="iconsContainer">
             <a href="https://www.linkedin.com/in/hernan-santos-166161249/" target="_blank"><LinkedInIcon className="icon" sx={{fontSize:40, color:"#F05454"}}/></a>
             <a href="https://github.com/HernanSantos" target="_blank"><GitHubIcon className="icon" sx={{fontSize:40, color:"#F05454"}}/></a>
-            <a href="https://wa.me/5491132990265" target="_blank"><WhatsAppIcon className="icon" sx={{fontSize:40, color:"#F05454"}}/></a>
+            <a href="mailto:xsantoshernan@gmail.com" target="_blank"><EmailIcon className="icon" sx={{fontSize:40, color:"#F05454"}}/></a>
           </div>
         </TitleDiv>
       </div>

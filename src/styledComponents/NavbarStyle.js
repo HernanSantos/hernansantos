@@ -40,7 +40,7 @@ export const Container = styled.nav`
                 height: 100%;
                 cursor: pointer;
                 transition: all 0.5s ease;
-                margin-right: 1.5rem;
+                margin-right: 2.5rem;
 
                 @media screen and (max-width: 415px ){
                     width: 100%;
