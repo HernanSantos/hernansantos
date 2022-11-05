@@ -16,9 +16,9 @@ export const Navbar = () => {
     <Container>
       <span></span>
         <div className={`menuContainer ${isOpen ? "active" : "desactive" }`}>
-            <Link smooth to="#home" onClick={()=> handlechange()}>INICIO</Link>
-            <Link smooth to="#aboutme" onClick={()=> handlechange()}>SOBRE MI</Link>
-            <Link smooth to="#projects" onClick={()=> handlechange()}>PROYECTOS</Link>
+            <Link smooth to="#home" onClick={()=> handlechange()}>Inicio</Link>
+            <Link smooth to="#aboutme" onClick={()=> handlechange()}>Sobre mi</Link>
+            <Link smooth to="#projects" onClick={()=> handlechange()}>Proyectos</Link>
         </div>
 
         <div className="menuIcon" onClick={()=> handlechange()}>

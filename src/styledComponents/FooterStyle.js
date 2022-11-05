@@ -5,7 +5,6 @@ export const FooterSection = styled.footer`
     height: 7rem;
     background-color:#0074B7;
     color: white;
-    font-family: 'Roboto', sans-serif;
 
     .container{
         display: flex;
@@ -20,14 +19,12 @@ export const FooterSection = styled.footer`
             text-align: center;
             font-size: 1.25rem;
             font-weight: bold;
-            text-shadow: 1px 2px 5px black;
             color: #EFEFEF;
         }
         .contact{
             text-align: center;
             font-weight: bold;
             color: #EFEFEF;
-            text-shadow: 1px 2px 5px black;
             width: 12rem;
         }
         .linksContainer{
@@ -35,10 +32,6 @@ export const FooterSection = styled.footer`
             justify-content: space-evenly;
             padding-top: 0.5rem;
             color: #EFEFEF;
-
-            .icon{
-                filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
-            }
         }
 
         p{

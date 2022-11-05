@@ -6,7 +6,6 @@ export const Container = styled.nav`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: 'Roboto', sans-serif;
     margin: auto;
     width: 100%;
     height: 4.5rem;
@@ -18,12 +17,12 @@ export const Container = styled.nav`
     a{
         font-size: 1.5rem;
         text-decoration: none;
-        font-weight: bold;
+        font-weight: 500;
         color: #EFEFEF;
 
         &:hover{
            color: #F05454;
-           border-bottom: 4px solid #F05454;
+           text-decoration: underline #F05454;
            
         }
     }

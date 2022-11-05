@@ -6,7 +6,6 @@ export const AboutMeContainer = styled.section`
     justify-content: center;
     color: #373744;
     width: 100%;
-    font-family: 'Roboto', sans-serif;
 
     .infoContainer{
         display: flex;
@@ -83,6 +82,7 @@ export const AboutMeContainer = styled.section`
 
                 p{
                     text-align: center;
+                    line-height: 1.5rem;
                 }
                 
             }

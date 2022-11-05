@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const ContainerHome = styled.section`
     width: 100%;
     height: 100vh;
-    font-family: 'Roboto', sans-serif;
     background-color: #0074B7;
 
     .infoContainer{

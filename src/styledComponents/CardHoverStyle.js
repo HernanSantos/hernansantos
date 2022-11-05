@@ -7,7 +7,6 @@ export const Wrapper = styled.div`
     top: 50%;
     transform: translate(0%, 0%);
     margin-bottom: 4rem;
-    font-family: 'Roboto', sans-serif;
 
     img{
         display: block;
@@ -42,6 +41,7 @@ export const Wrapper = styled.div`
             padding: 0 1rem 0 1rem;
             font-size: 1rem;
             text-align: center;
+            text-transform: none;
         }
         .buttonContainer{
             width: 80%;
