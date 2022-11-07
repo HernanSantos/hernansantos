@@ -1,28 +1,28 @@
 import styled from "styled-components";
 
 export const Container = styled.nav`
-    background-color: #0074B7;
-    color:  #EFEFEF;
+    background-color: ${(props) => props.theme.primarybg};
+    color: ${(props) => props.theme.primary};
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin: auto;
     width: 100%;
     height: 4.5rem;
     opacity: 1;
     position: fixed;
     z-index: 2;
-    box-shadow: 0px 3px 18px #0074B7;
+    box-shadow: 0px 3px 18px ${(props) => props.theme.primarybg};
 
     a{
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         text-decoration: none;
         font-weight: 500;
-        color: #EFEFEF;
+        color: ${(props) => props.theme.primary};
 
         &:hover{
-           color: #F05454;
-           text-decoration: underline #F05454;
+            color: ${(props) => props.theme.title};
+            text-decoration: underline ${(props) => props.theme.title};
            
         }
     }
@@ -53,7 +53,7 @@ export const Container = styled.nav`
 
         @media screen and (max-width: 415px ) {
             display: flex;
-            background-color: #0074B7;
+            background-color: ${(props) => props.theme.primarybg};
             position: absolute;
             top: 3rem;
             left: -100%;

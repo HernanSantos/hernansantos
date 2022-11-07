@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ContainerHome = styled.section`
     width: 100%;
     height: 100vh;
-    background-color: #0074B7;
+    background-color: ${(props) => props.theme.primarybg};
 
     .infoContainer{
         width: 60%;

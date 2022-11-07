@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FooterSection = styled.footer`
     width: 100%;
     height: 7rem;
-    background-color:#0074B7;
+    background-color: ${(props) => props.theme.primarybg};
     color: white;
 
     .container{

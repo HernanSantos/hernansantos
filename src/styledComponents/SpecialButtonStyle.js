@@ -36,7 +36,7 @@ export const SpecialButton = styled.a`
         height: 100%;
         width: 0;
         border-radius: 0.2rem;
-        background-color: #0074B7;
+        background-color: ${(props) => props.theme.primarybg};
         z-index: -1;
         -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
         box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);

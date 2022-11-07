@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 
 export const ContainerProjects = styled.section`
-    background-color: #EFEFEF;
-    color: #373744;
+    background-color: ${(props) => props.theme.secondarybg};
+    color: ${(props) => props.theme.secondary};
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,8 +20,9 @@ export const ContainerProjects = styled.section`
     .lineTitle{
         display: flex;
         justify-content: center;
-        height: 5px;
-        background-color: #0074B7;
+        height: 0.3rem;
+        border: 0;
+        background-color: ${(props) => props.theme.primarybg};
         width: 10%;
         margin: 0;
 

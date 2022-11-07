@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const AboutMeContainer = styled.section`
-    background-color: #EFEFEF;
+    background-color: ${(props) => props.theme.secondarybg};
     display: flex;
     justify-content: center;
-    color: #373744;
+    color: ${(props) => props.theme.secondary};
     width: 100%;
 
     .infoContainer{
@@ -20,13 +20,14 @@ export const AboutMeContainer = styled.section`
             font-size: 3rem;
             text-align: center;
             margin: 5rem 1rem 0 1rem;
+            padding-bottom: 0.5rem;
         }
         .lineTitle{
             display: flex;
             justify-content: center;
             border: 0;
-            height: 5px;
-            background-color: #0074B7;
+            height: 0.3rem;
+            background-color: ${(props) => props.theme.primarybg};
             width: 10%;
             margin: auto;
         }
